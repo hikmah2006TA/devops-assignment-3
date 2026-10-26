@@ -1,0 +1,6 @@
+services:
+  devops-tool:
+    build: .
+    image: devops-tool
+    container_name: devops-tool
+    entrypoint: ["/usr/local/bin/devops-tool"]
