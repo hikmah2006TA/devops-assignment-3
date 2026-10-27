@@ -89,5 +89,3 @@ echo "Failed: $FAIL"
 echo "=================================="
 
 [[ "$FAIL" -eq 0 ]]
-echo "FAILURE DEMONSTRATION"
-exit 1
